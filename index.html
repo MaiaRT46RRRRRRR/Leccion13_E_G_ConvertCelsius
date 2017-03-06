@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Maia</title>
+      <link rel="icon"
+      type="image/ico"
+      href="img/maia.ico">
+    <style type="text/css">
+      body {background-color:white; font-family: sans-serif;}
+      label {color: maroon; display:block; padding:5px;}
+    </style>
+    </head>
+ <body style="background-color: #E2A9F3;" align="center">
+      <font color="#3D136D" face="Century Gothic, sans-serif">
+      <h1><p>CONVERTIDOR DE TEMPERATURA</p></h1>
+    <section>
+      <form action="">
+         <p>Los valores convertidos se mostraran con 2 digitos en los decimales</p>
+              <table border="5" align="center">
+                <tr>
+                  <td>Temperature in Fahrenheit</td>
+                  <td><label for="fahrenheit"></label>
+                    <input id="fahrenheit" type="text"></td>
+                  <td><input type="button"  value= "Convert to Celsius" onclick="convertidorAC();return false"></td>
+                </tr>
+                <tr>
+                  <td>Temperature in Celsius</td>
+                  <td><label for="celcius"></label>
+                    <input id="celcius" type="text"></td>
+                  <td><input type="button" value="Convert to Fahrenheit" onclick="convertidorAF() ;return false"></td>
+                </tr>
+              </table>
+      </form>
+    </section>
+ <script type="text/javascript" src="assets/js/main.js"></script>
+ </font>
+</body>
+</html>
